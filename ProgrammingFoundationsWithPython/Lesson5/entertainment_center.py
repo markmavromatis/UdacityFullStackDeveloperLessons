@@ -6,12 +6,12 @@ toy_story = media.Movie("Toy Story",
                         "A story of a boy and his toys that come to life",
                         "http://upload.wikimedia.org/wikipedia/en/1/13/Toy_Story.jpg",
                         "https://www.youtube.com/watch?v=vwyZH85NQC4")
-print(toy_story.storyline)
+
 avatar = media.Movie("Avatar",
                      "A marine on an alien planet",
                      "http://upload.wikimedia.org/wikipedia/id/b/b0/Avatar-Teaser-Poster.jpg",
                      "http://www.youtube.com/watch?v=-9ceBgWV8io")
-print(avatar.storyline)
+
 
 school_of_rock = media.Movie("School of Rock",
                              "Using rock music to learn",
@@ -51,4 +51,7 @@ before_sunset = media.Movie("Before Sunset",
 
 movies = [before_sunrise, before_sunset, toy_story, avatar, when_harry_met_sally, school_of_rock, ratatouille, midnight_in_paris, hunger_games]
 
-fresh_tomatoes.open_movies_page(movies)
+# fresh_tomatoes.open_movies_page(movies)
+
+print(media.Movie.VALID_RATINGS)
+
