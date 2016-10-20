@@ -49,7 +49,9 @@ before_sunset = media.Movie("Before Sunset",
                                    "https://www.youtube.com/watch?v=oI3UuneLcyU")
 
 
-movies = [before_sunrise, before_sunset, toy_story, avatar, when_harry_met_sally, school_of_rock, ratatouille, midnight_in_paris, hunger_games]
+movies = [before_sunrise, before_sunset, toy_story, avatar,
+          when_harry_met_sally, school_of_rock, ratatouille, midnight_in_paris,
+          hunger_games]
 
 # fresh_tomatoes.open_movies_page(movies)
 
