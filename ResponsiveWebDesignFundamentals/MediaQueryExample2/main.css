@@ -1,0 +1,11 @@
+@media screen and (min-width: 500px) {
+	body {
+		color: #F79420;
+	}
+}
+
+@media screen and (min-width: 800px) {
+	body {
+		background-color: blue;
+	}
+}
