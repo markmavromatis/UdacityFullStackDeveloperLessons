@@ -73,6 +73,10 @@ ul {
   color: #212121;
 }
 
+.header__hamburger {
+  float: right;
+
+}
 
 /*
  *
@@ -366,4 +370,18 @@ footer a {
   text-decoration: none;
   color: #333;
   padding: 1.5em;
+}
+
+/* Hide menu on mobile devices */
+@media screen and (max-width: 400px) {
+  #drawer {
+    display: none;
+  }
+}
+
+/* Hide hamburger icon when device has wide screen */
+@media screen and (min-width: 401px) {
+  #hamburger_h1 {
+    display: none;
+  }
 }
